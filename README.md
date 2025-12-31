@@ -1,8 +1,8 @@
 # Soccer Spatial Shot Analysis (WSL 2020/21)
 
-This repository contains a course lab using **StatsBomb Open Data** (FA Women’s Super League 2020/2021) to build and evaluate a **shot difficulty model (Expected Goals, xG)** and visualize spatial scoring probability across the pitch.
+This repository uses **StatsBomb Open Data** (FA Women’s Super League 2020/2021) to build and evaluate a **shot difficulty model (Expected Goals, xG)** and visualize spatial scoring probability across the pitch.
 
-## Lab Goals
+## Goals
 1. **Create a Shot Difficulty Model (Expected Goals)** using **logistic regression** on StatsBomb Open Data (WSL 2020/21).
 2. **Rank the Top 10 players** by **cumulative expected goals (xG)** across the season.
 3. **Evaluate the model** using appropriate diagnostics and performance metrics.
@@ -34,4 +34,4 @@ This repository contains a course lab using **StatsBomb Open Data** (FA Women’
 - mplsoccer
 
 ## Notes
-This lab focuses on **expected goals as a measure of shot difficulty**, not player finishing ability. Player ranking is based on **cumulative xG**, which reflects shot quantity and shot quality over the season.
+Focus is on **expected goals as a measure of shot difficulty**, not player finishing ability. Player ranking is based on **cumulative xG**, which reflects shot quantity and shot quality over the season.
